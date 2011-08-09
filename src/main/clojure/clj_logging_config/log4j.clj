@@ -12,7 +12,7 @@
 ;; software.
 
 (ns clj-logging-config.log4j
-  (:use clojure.contrib.pprint
+  (:use clojure.pprint
         clojure.tools.logging)
   (:require [clojure.java.io :as io])
   (:import (org.apache.log4j
